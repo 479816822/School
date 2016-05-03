@@ -1,6 +1,6 @@
 package school;
 
-public  abstract class People {
+public abstract class People {
 	// 属性
 	private String Name;
 	private int No;
@@ -10,11 +10,11 @@ public  abstract class People {
 
 	public People(String name, int no, int age, int grand, String sex) {
 		// TODO Auto-generated constructor stub
-		this.Name=name;
-		this.No=no;
-		this.sex =sex;
-		this.age=age;
-		this.grand=grand;
+		this.Name = name;
+		this.No = no;
+		this.sex = sex;
+		this.age = age;
+		this.grand = grand;
 	}
 
 	// 成员方法
@@ -22,24 +22,12 @@ public  abstract class People {
 		return Name;
 	}
 
-	public void setName(String name) {
-		Name = name;
-	}
-
 	public int getNo() {
 		return No;
 	}
 
-	public void setNo(int no) {
-		No = no;
-	}
-
 	public String getSex() {
 		return sex;
-	}
-
-	public void setSex(String sex) {
-		this.sex = sex;
 	}
 
 	public int getGrand() {
